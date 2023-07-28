@@ -30,23 +30,22 @@ Step 4. Outside the function, call the ask_for_input function to test your code.
 
 def check_guess(guess):
     if guess in list(word): # checks if the guess is in the word
+        # print(word)
         print(f"Good guess! {guess} is in the word.")
     else:
         print(f"Sorry, {guess} is not in the word. Try again.")
+     
 
 def ask_for_input(): # ask the user until a vlaid letter given
     while True:
         guess = input("Please enter a single letter: ").lower()  # Convert guess to lowercase
         if len(guess) == 1 and guess.isalpha():  # Check if the guess is a single alphabetical character
-            # print("Good guess!")
-            return guess  # I chose Return over "Break" to get out of the loop if the guess is valid
+            print("Good guess!")
+            break # return guess  # I chose Return over "Break" to get out of the loop if the guess is valid
         else:
             print("Invaliad letter. Please, enter a single alphabetical character.")
+    check_guess(guess)
     
-        check_guess(guess)
-
-    
-
 # guess = user_letter_selection() # assigned output of 'user_letter_selection()' to variable 'guess'
 
 ask_for_input()
