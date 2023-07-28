@@ -76,7 +76,17 @@
 
 - Prerequisite:
   1. For Loops, Iteration and Control Flow Tricks
-- Task 1: Iteratively checking if the input is a valid guess. Coding it so that it continuously ask the user for a letter and validates it. Creating a new script called milestone_3.py. 
+- Task 1: Iteratively checking if the input is a valid guess. Coding it so that it continuously ask the user for a letter and validates it. Creating a new script called milestone_3.py.
+- Task 2: Check whether the guess is in the word
+- Prerequisite:
+  1. Functions
+- Task 3: Created a function to run the checks
+- Task 4: Updtaed documentions
+- Task 5: Updated latest code to GitHub
+- Functions created so far:
+  1. def random_selection_from_word_list(): # randomly selects a fruit from 'word_list'
+  2. def check_guess(guess): # takes the guessed letter as an argument and checks if the letter is in the word randomly chosen by program.
+  3. def ask_for_input(): # ask the user until a vlaid letter given and then passed as argument to 'check_guess(guess)'
 
 ## Milestone n
 
