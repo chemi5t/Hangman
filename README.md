@@ -35,6 +35,7 @@
   6. Sets
   7. Intro to Control Flow
   8. Imports
+- Task 2: Choose a random word from the list. Use the 'random' module and use the 'choice' method.
 - Task 3: Ask the user for input.
 - Task 4: Check that the input is a single character. Validate the input to ensure only a single letter is entered and that only alphabetical characters are provided by the user.
 - Followed by prerequisite:
@@ -137,7 +138,7 @@ Hangman code written using VS Code and saved as milestone_4.py.
 
 ## Conclusions
 
-- This project exposes you to Python coding with emphasis on writing classes, methods, and object-oriented programming. In addition, you require the knowledge of using the command line, VS Code software, git for version control, and GitHub for backing up of work. 
+- This project exposes you to Python coding with emphasis on writing classes, methods, and object-oriented programming. You are required to import the module 'random' and use the method 'choice' to aid your code. In addition, you require the knowledge of using the command line, VS Code software, git for version control, and GitHub for backing up of work. 
 
 - This project helps you reflect on the structure of code written for a task in logical steps. To be able to handle how data can be entered or interpreted to be entered. With checks in the code being put in place to account for any errors that may be inputted.
 
@@ -146,5 +147,5 @@ Hangman code written using VS Code and saved as milestone_4.py.
 1. More words to guess from.
 2. Give the option of themes to choose from which words may be guessed. 
 3. Have AI extend your options for words.
-4. A setting introduced to change the difficulty level of the game, i.e., longer words to guess.
-5. Can create new rules where you are rewarded for consecutive correct guesses, i.e., life added onto your tally.
+4. A setting introduced to change the difficulty level of the game i.e. longer words to guess.
+5. Can create new rules where you are rewarded for consecutive correct guesses i.e. life added onto your tally.
