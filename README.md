@@ -1,31 +1,22 @@
 # Hangman - Project Documentation Guideline
 
-> (Include here a brief description of the project, what technologies are used etc.)
-> 
 > Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
 
-## Milestone 1: Set up the enviroment
+## Milestone 1: Set up the environment
 
-- Setting up of the dev enviroment. Covering the following prerequisites:
+- Setting up of the dev environment. Covering the following prerequisites:
   1. Setting up
   2. Operating Systems
   3. What is the command line
   4. File Navigation & File Paths
   5. File Manipulation
 - Setting up of GitHub
-  
-- (Answer some of these questions in the next few bullet points. What have you built? What technologies have you used? Why have you used those?)
-- (Example: The FastAPI framework allows for fast and easy construction of APIs and is combined with pydantic, which is used to assert the data types of all incoming data to allow for easier processing later on. The server is ran locally using uvicorn, a library for ASGI server implementation.)
-  
-```python
-"""Insert your code here"""
-```
 
-> Insert an image/screenshot of what you have built so far here.
+- Outcomes from Milestone 1: Prerequisites and setup of laptop and GitHub up successful. Now able to commence the project and save/track changes via Git and GitHub. VS Code to be used for writing the code.
 
-## Milestone 2: Create the variables fo the game
+## Milestone 2: Create the variables for the game
 
-- Using Python commands such as if-else statments and while loops. Covering the following prerequisites:
+- Using Python commands such as if-else statements and while loops. Covering the following prerequisites:
   1. What is Python?
   2. Google Colab
   3. Variables
@@ -34,7 +25,7 @@
   6. Strings
   7. Booleans
   8. Lists
-- Task 1: Define a list of posisble words. Create a file named milestone_2.py. This file contains the code for the first milestone. In this task, we are creating a list of words.
+- Task 1: Define a list of possible words. Create a file named milestone_2.py. This file contains the code for the first milestone.
 - Further prerequisites:
   1. Package managers
   2. pip
@@ -48,45 +39,37 @@
 - Task 4: Check that the input is a single character. Validate the input to ensure only a single letter is entered and that only alphabetical characters are provided by the user.
 - Followed by prerequisite:
   1. Github README files
-- Task 5: Start documenting experience. Upload files to the repository and creat a README file. Add documentation to README file. Describ the code written in this milestone.
-- Task 6: Updat the lastest code changes to GitHub. Upload the latest code changes from your local project repository to GitHub. To do so, first add your changes to the staging area and make a commit. Finally, push the changes to GitHub.
+- Task 5: Start documenting experience. Upload files to the repository and create a README file. Add documentation to README file. Describe the code written in this milestone.
+- Task 6: Update the latest code changes to GitHub.
 
+- Outcomes from Milestone 2: Milestone 2 continues from Milestone 1. Prerequisites and tasks successfully completed for Milestone 2. Code saved to milestone_2.py, and README updated. In milestone_2.py, 'word_list' created with 5 different types of fruits; a function defined to randomly select a word from the 'word_list', and a function defined that allows a user to select a single alphabetical letter of choice. The local repository is backed up into GitHub. Find attached screenshots below of progress to date.
 
-- (Does what you have built in this milestone connect to the previous one? If so explain how. What technologies are used? Why have you used them? Have you run any commands in the terminal? If so insert them using backticks (To get syntax highlighting for code snippets add the language after the first backticks).)
+Repo created in GitHub with README.md file.
+> ![Alt text](<MS2 screen shot of GitHub repo.jpg>)
 
-- (Example below:)
-
-```bash
-/bin/kafka-topics.sh --list --zookeeper 127.0.0.1:2181
-```
-
-- (The above command is used to check whether the topic has been created successfully, once confirmed the API script is edited to send data to the created kafka topic. The docker container has an attached volume which allows editing of files to persist on the container. The result of this is below:)
-
-```python
-"""Insert your code here"""
-```
-
-> Insert screenshot of what you have built working.
-> 
-> "C:/Users/chemi/hangman_project/MS2 screen shot of GitHub repo.jpg"
-> 
-> "C:\Users\chemi\hangman_project\MS2 screen shot of GitHub repo.jpg"
+Hangman code written using VS Code and saved as milestone_2.py and uploaded to GitHub.
+> ![Alt text](<MS2 screen shot of VS Code.jpg>)
 
 ## Milestone 3: Check if the guessed character is in the word
 
 - Prerequisite:
-  1. For Loops, Iteration and Control Flow Tricks
-- Task 1: Iteratively check if the input is a valid guess. Code it so that it continuously ask the user for a letter and validates it. Create a new script called milestone_3.py.
+  1. For Loops, Iteration, and Control Flow Tricks
+- Task 1: Iteratively check if the input is a valid guess. Code it so that it continuously asks the user for a letter and validates it. Create a new script called milestone_3.py.
 - Task 2: Check whether the guess is in the word
 - Prerequisite:
   1. Functions
-- Task 3: Creat a function to run the checks
-- Task 4: Update documentions
+- Task 3: Create a function to run the checks
+- Task 4: Update documentations
 - Task 5: Update latest code to GitHub
-- Functions created so far:
+
+- Outcomes from Milestone 3: Milestone 3 continues from Milestone 2. Prerequisites and tasks successfully completed for Milestone 3. Functions created so far:
   1. def random_selection_from_word_list(): # randomly selects a fruit from 'word_list'
-  2. def check_guess(guess): # takes the guessed letter as an argument and checks if the letter is in the word randomly chosen by program.
-  3. def ask_for_input(): # ask the user until a vlaid letter given and then passed as argument to 'check_guess(guess)'
+  2. def check_guess(guess): # takes the guessed letter as an argument and checks if the letter is in the word randomly chosen by the program.
+  3. def ask_for_input(): # ask the user until a valid letter is given and then passed as an argument to 'check_guess(guess)'
+Code saved to milestone_3.py, and README updated. Local repository backed up into GitHub. Find attached screenshots below of progress to date.
+
+Hangman code written using VS Code and saved as milestone_3.py.
+> ![Alt text](<MS3 screen shot of VS Code.jpg>)
 
 ## Milestone 4: Create the Game class
 
@@ -95,7 +78,7 @@
   2. Context Managers
   3. Comprehensions
   4. Defining Functions
-  5. Object Oriented Programming
+  5. Object-Oriented Programming
   6. Principles of OOP Design
   7. What is `self` in Python?
   8. Magic Methods
@@ -109,11 +92,11 @@
 
 Create a class called Hangman. Pass in word_list and num_lives as parameters. Make num_lives a default parameter and set the value to 5.
 
-Initialise the following attributes:
+Initialize the following attributes:
 
-word: The word to be guessed, picked randomly from the word_list. Remember to import the random module into your script.
+word: The word to be guessed, picked randomly from the word_list.
 
-word_guessed: list - A list of the letters of the word, with for each letter not yet guessed. For example, if the word is 'apple', the word_guessed list would be ['', '', '', '', '']. If the player guesses 'a', the list would be ['a', '', '', '', ''].
+word_guessed: list - A list of the letters of the 'word', with "'_'" for each letter not yet guessed. For example, if the word is 'apple', the 'word_guessed' list would be ['', '', '', '', '']. If the player guesses 'a', the list would be ['a', '', '', '', ''].
 
 num_letters: int - The number of UNIQUE letters in the word that have not been guessed yet.
 
@@ -122,24 +105,46 @@ num_lives: int - The number of lives the player has at the start of the game.
 word_list: list - A list of words.
 
 list_of_guesses: list - A list of the guesses that have already been tried. Set this to an empty list initially.
-- Task 2: Create methods for running the checks that will ask the user to guess a letter and another method that will check if the guess is in the word.
-
+- Task 2: Create methods for running the checks that will ask the user to guess a letter and another method that will check if the guess is in the word. 
 Create the check_guess method and pass the guess to the method as a parameter. Then define a method called ask_for_input.
 - Task 3: Define what happens if the letter is in the word. 
-
-Check_guess method is extended to replace the underscore(s) in the word_guessed with the letter guessed by the user.
-- Task 4: Define what happens if the letter is NOT in the word - reduce `num_lives' by 1.
+The check_guess method is extended to replace the underscore(s) in the word_guessed with the letter guessed by the user.
+- Task 4: Define what happens if the letter is NOT in the word - reduce `num_lives` by 1.
 - Task 5: Update your documentation and update README. Define the class with the attributes and methods you created.
-- Task 6: Update the latesr code changes to GitHub
+- Task 6: Update the latest code changes to GitHub
 
-## Milestone n
+- Outcomes from Milestone 4: Milestone 4 continues from Milestone 3. Prerequisites and tasks successfully completed for Milestone 4. Class and functions created so far:
+  1. class Hangman(): # Initialized and methods worked on
+  2. def check_guess(self, guess): # Take the guessed letter as an argument and checks if the letter is in the word randomly chosen by the program.
+  3. def ask_for_input(self): # Ask the user until a valid letter is given
+Code checked against an instance of the class and work saved to milestone_4.py, and README updated. The local repository is backed up into GitHub. Find attached screenshots below of progress to date.
 
-- (Continue this process for every milestone, making sure to display clear understanding of each task and the concepts behind them as well as understanding of the technologies used.)
+Hangman code written using VS Code and saved as milestone_4.py.
+> ![Alt text](<MS4 screen shot of VS Code.jpg>)
 
-- (Also don't forget to include code snippets and screenshots of the system you are building, it gives proof as well as it being an easy way to evidence your experience!)
+## Milestone 5: Putting it all together
+
+- Task 1: Putting it all together in a new script called milestone_5.py. Copy all the codes in milestone_4.py file into the newly created milestone_5.py file. Create a function that will run all the code to run the game as expected. 
+- Task 2: Document your experience. Update the README.md file and explain how you defined the whole game and the logic behind it.
+- Task 3: Update the latest code changes to GitHub. 
+
+- Outcomes from Milestone 5: Milestone 5 continues from Milestone 4. Prerequisites and tasks successfully completed for Milestone 4. Additional function created to run the class Hangman:
+  1. def play_game(word_list): # Function that plays the game
+Code checked against an instance of the class. Code then debugged and work saved to milestone_4.py, and README updated. The local repository is backed up into GitHub. Find attached screenshots below of progress to date.
+
+Hangman code written using VS Code and saved as milestone_4.py.
+> ![Alt text](<MS5 screen shot of VS Code.jpg>)
 
 ## Conclusions
 
-- (Maybe write a conclusion to the project, what you understood about it and also how you would improve it or take it further.)
+- This project exposes you to Python coding with emphasis on writing classes, methods, and object-oriented programming. In addition, you require the knowledge of using the command line, VS Code software, git for version control, and GitHub for backing up of work. 
 
-- (Read through your documentation, do you understand everything you've written? Is everything clear and cohesive?)
+- This project helps you reflect on the structure of code written for a task in logical steps. To be able to handle how data can be entered or interpreted to be entered. With checks in the code being put in place to account for any errors that may be inputted.
+
+- The scope for the game can be expanded in a number of way. To list a few:
+
+1. More words to guess from.
+2. Give the option of themes to choose from which words may be guessed. 
+3. Have AI extend your options for words.
+4. A setting introduced to change the difficulty level of the game, i.e., longer words to guess.
+5. Can create new rules where you are rewarded for consecutive correct guesses, i.e., life added onto your tally.
