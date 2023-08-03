@@ -1,6 +1,6 @@
 # Hangman - Project Documentation Guideline
 
-> Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts. This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+> Hangman is a classic game in which a player thinks of a word, and the other player tries to guess that word within a certain number of attempts. This implementation of the Hangman game involves the computer thinking of a word, and the user attempting to guess it. Whether you guess the letters of the word correctly or not, you will be kept informed of how many lives remain, the attempted guesses that have been made, and the number of letters yet to be guessed from the word.
 
 ## Milestone 1: Set up the environment
 
